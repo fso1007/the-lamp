@@ -1,0 +1,33 @@
+.lamp {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .lamp__title {
+    font-size: 2em;
+    margin: .8em auto; }
+  .lamp__display {
+    margin-top: 1.8em; }
+
+.button__container {
+  margin-top: 2em; }
+
+.button__on {
+  width: 100px;
+  padding: .5em;
+  margin-right: .6em;
+  font-weight: 700;
+  font-variant: small-caps; }
+
+.button__off {
+  width: 100px;
+  padding: .5em;
+  margin-left: .6em;
+  font-weight: 700;
+  font-variant: small-caps; }
+
+.button__on-off {
+  margin-top: 1.6em;
+  width: 100px;
+  padding: .5em;
+  font-weight: 700;
+  font-variant: small-caps; }
