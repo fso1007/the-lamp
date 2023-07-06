@@ -1,4 +1,4 @@
-<h1>light_bulb</h1>
+<h1>the-lamp</h1>
 
 <h2>Turn on/off lamp example</h2>
 
