@@ -52,5 +52,3 @@ function turnLampOnOff() {
     turnLampOff();
   }
 }
-
-// Dificuldades: A parte mais difícil foi manter a lÂmpada quebrada após o double click, pois os eventlisteners pegavam o mouseover e mouseleave e a imagem era trocada
