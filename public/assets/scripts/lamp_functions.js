@@ -1,16 +1,13 @@
 // HTML img element
 const lamp = document.querySelector('.lamp__img');
-
 // IMG Sources
 const lampOnImg = '/public/assets/images/light-on.svg';
 const lampOffImg = '/public/assets/images/light-off.svg';
 const lampBrokenImg = '/public/assets/images/light-broken.svg';
-
 // Buttons
 const buttonOn = document.querySelector('.button__on');
 const buttonOff = document.querySelector('.button__off');
 const buttonOnOff = document.querySelector('.button__on-off')
-
 // Event Listeners
 buttonOn.addEventListener('click', turnLampOn);
 buttonOff.addEventListener('click', turnLampOff);
@@ -43,11 +40,9 @@ function isLampOn() {
   return lamp.src.includes('on');
 }
 
-
 function turnLampOnOff() {
  if (!isLampOn()) {
     turnLampOn();
-
   } else {
     turnLampOff();
   }
